@@ -45,6 +45,7 @@ Install the necessary python modules:
 ```sh
 $ cd source_code
 $ pip install -r requirements.txt
+$ cd src
 $ python run.py
 
 ```
