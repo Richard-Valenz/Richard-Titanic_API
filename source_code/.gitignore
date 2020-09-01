@@ -125,3 +125,11 @@ dmypy.json
 
 # docs dir
 docs/*
+
+# data dir
+data/*
+!data/train.csv
+!data/val.csv
+
+#models dir
+models/*
