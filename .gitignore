@@ -125,3 +125,5 @@ dmypy.json
 
 # docs dir
 docs/*
+!docs/fav-joke_1.jpg
+!docs/fav-joke_2.png
