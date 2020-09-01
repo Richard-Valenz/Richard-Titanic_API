@@ -40,7 +40,7 @@ def main():
 
     })
 
-    return print(compare_models)
+    #return print(compare_models)
 
 #Run the main() function when executed
 if __name__ == "__main__":
