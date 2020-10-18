@@ -10,8 +10,6 @@ def main():
     and engineering the features from the dataset and creating the .csv file of the
     dataset into the data folder.
 
-
-
     Returns:
         data_name_bf : prepared dataset file located on the data folder
     '''
