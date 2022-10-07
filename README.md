@@ -2,7 +2,7 @@
 
 Welcome to the Titanic prediction API, this is a data science project which predicts the survival of a person given determined parameters based on a passenger's information.
 
-# UPDATE 2021! : REST API service taken down
+## UPDATE 2022! : REST API Server shutted down
 
 ### Installation 
 
