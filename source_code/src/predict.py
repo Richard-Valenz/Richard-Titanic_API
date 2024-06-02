@@ -4,14 +4,14 @@ from sklearn import metrics
 import numpy as np
 
 def execute():
-
     """
-    Predicts our data and saves the model in a pickle file
+    Predicts our new and cleaned data and runs our already trained models stored in pickle files
 
     Returns:
         Test model accuracy from val_bf.csv
     """
-    df = pd.read_csv("../data/val_bf.csv")# OJO: incorrect path
+    
+    df = pd.read_csv("../data/val_bf.csv")
 
     df.dropna(inplace = True)
     #Defining our target to be predicted
@@ -37,7 +37,7 @@ def execute():
         'Model' : ['RandForest','ExtTree', 'GraBoo', 'AdaBoo'],
         'Score' : acc_lst
     })
-    #print(acc_lst)
+
     print("Predictions ready !")
     return acc_lst
 
